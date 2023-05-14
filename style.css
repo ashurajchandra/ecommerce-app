@@ -1,0 +1,268 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    /* background-color: lightcoral; */
+}
+
+.left-nav{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.item1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.right-nav{
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .border-bottom{
+    height: 2px;
+    background-color: grey;
+    width: 87%;
+    margin: auto;
+} */
+.border-bottom{
+    width: 86%;
+}
+
+
+.product-container{
+    display: flex;
+    /* border: 2px solid; */
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+}
+
+
+.preview-image{
+    width: 400px;
+}
+.preview-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnail-images{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnail-images img{
+    width: 20%;
+    border-radius: 10px;
+}
+#first-child{
+    border: 2px solid orange;
+    opacity: 0.4;
+}
+
+.product-description{
+    width: 61%;
+    /* border: 2px solid; */
+    /* justify-content: space-between; */
+    margin-left: 5%;
+    margin-top: 6%;
+}
+.title{
+    text-transform: uppercase;
+    color: orange;
+    font-size: 16px;
+    font-weight: 900;
+}
+.sub-heading{
+    width: 52%;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.product-info{
+    color: gray;
+    width: 65%;
+}
+/* .current-price-section{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+} */
+.discount-section{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.current-price{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.current-discount{
+    align-self: center;
+}
+
+.prev-price{
+    text-decoration: line-through;
+    opacity: 0.5;
+    margin-top: -10px;
+    font-size: 20px;
+}
+.action-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  
+}
+.action-buttons button{
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.quantity{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 900;
+}
+
+.add-cart{
+    width: 50%;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+}
+.increase-qty, .decrease-qty{
+    color: darkorange;
+}
+.my-svg{
+    color: white;
+    fill: white;
+}
+
+@media (max-width:600px){
+/* body background-color: ; */
+/* body{
+    background-color: pink;
+} */
+
+.navbar{
+    background-color: white;
+}
+.product-container{
+    flex-direction: column;
+}
+.thumbnail-images{
+    display: none;
+}
+.mobile-design{
+    display: none;
+}
+.right-nav{
+    width: 25%;
+}
+.item1{
+    font-size: 30px;
+}
+.product-container{
+    margin: 0;
+    width: 100%;
+
+}
+.preview-image{
+    width: 100%;
+}
+
+.product-description{
+    width: 95%;
+    margin: 5% ;
+}
+.sub-heading, .product-info{
+    width: 95%;
+}
+.product-info{
+    font-size: 21px;
+}
+.action-buttons{
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+
+}
+.action-buttons button{
+    width: 90%;
+    height: 80px;
+}
+
+.current-price-section{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+
+}
+.discount-section {
+    width: 40%;
+}
+.discount-section p{
+    font-size: 30px;
+}
+.prev-price{
+    margin: 0;
+    align-self: center;
+    font-size: 30px;
+}
+}
+
+
+
+
+/* @media (max-width:769px){
+    body{
+        background-color: blanchedalmond;
+    }
+} */
+
+
+/* offset properties top, bottom left right */
+
+.parent-wrapper{
+    /* height: 400px; */
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid black;
+
+}
+.parent-wrapper div{
+    height: 100px;
+    border: 2px solid red;
+    /* width: 20%; */
+    margin-bottom: 20px;
+}
+
+.child1{
+    background-color: aquamarine;
+}
+.child2{
+    background-color: red;
+}
+.child3{
+    background-color: green;
+}
+.child4{
+    background-color: violet;
+}
+.child5{
+    background-color: brown;
+}
